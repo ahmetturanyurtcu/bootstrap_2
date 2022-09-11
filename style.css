@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+.navbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999;
+}
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:active {
+  color: blueviolet !important;
+}
+
+.nav-link:hover {
+  color: darkviolet !important;
+}
+
+.items {
+  background-image: url(./img/banner_bg.jpg);
+  height: calc(100vh - 2rem);
+  background-position: center;
+  background-size: cover;
+}
+
+header div h2 {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 700;
+}
+
+.card {
+  max-height: 495px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header,
+#services,
+#portfolio,
+#about,
+#team {
+  scroll-margin-top: 4rem;
+}
+
+#team .image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  max-width: 5rem;
+  padding: 5rem;
+  transition: all 1s;
+}
+
+#team .image:hover {
+  border-radius: 20%;
+}
+#team_items {
+  transition: all 1s;
+}
+
+.link_sm i {
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.link_sm i:hover {
+  color: rgb(31, 59, 187);
+}
+
+.company .col1 {
+  background-image: url(./img/company/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 7rem;
+  padding: 7rem;
+  transition: all 1s;
+  margin-right: 2rem;
+}
+.company .col2 {
+  background-image: url(./img/company/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 7rem;
+  padding: 7rem;
+  transition: all 1s;
+  margin-right: 2rem;
+}
+.company .col3 {
+  background-image: url(./img/company/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 7rem;
+  padding: 7rem;
+  transition: all 1s;
+  margin-right: 2rem;
+}
+.company .col4 {
+  background-image: url(./img/company/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 7rem;
+  padding: 7rem;
+  transition: all 1s;
+  margin-right: 2rem;
+}
+.company .col5 {
+  background-image: url(./img/company/5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 7rem;
+  padding: 7rem;
+  transition: all 1s;
+  margin-right: 2rem;
+}
+
+.company .row div:hover {
+  transform: scale(1.1);
+}
+
+textarea {
+  resize: none !important;
+}
+
+#contact {
+  background-image: url(./img/bg_contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 10;
+}
+
+footer {
+  margin: 0;
+  line-height: 3rem;
+}
