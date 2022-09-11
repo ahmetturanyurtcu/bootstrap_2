@@ -33,7 +33,7 @@ header div h2 {
 }
 
 .card {
-  max-height: 495px;
+  overflow: scroll;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
